@@ -48,7 +48,8 @@ html {
 }
 
 .nav-links a:hover,
-.nav-links a.active {
+.nav-links a.active,
+.nav-links a.active-link {
   border-bottom-color: #fff;
 }
 
@@ -93,7 +94,7 @@ html {
     background: var(--primary-dark);
   }
 
-  .nav-links.open {
+  .nav-links.active {
     display: flex;
   }
 }
